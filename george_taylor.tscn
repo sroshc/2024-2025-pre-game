@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://564besutif0e"]
+
+[ext_resource type="Texture2D" uid="uid://v3pn3f50gng0" path="res://Assets/tonk.jpg" id="1_ww5f6"]
+
+[node name="GeorgeTaylor" type="Sprite2D"]
+texture = ExtResource("1_ww5f6")
