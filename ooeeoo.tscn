@@ -1,7 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://dk2hnklvlded0"]
+[gd_scene load_steps=3 format=3 uid="uid://dk2hnklvlded0"]
 
 [ext_resource type="Texture2D" uid="uid://bustu78o3w5g3" path="res://Assets/miku.png" id="1_fah4n"]
+[ext_resource type="Texture2D" uid="uid://v3pn3f50gng0" path="res://Assets/tonk.jpg" id="2_eft4w"]
 
 [node name="Node2D - Hatsune Miku" type="Sprite2D"]
 scale = Vector2(0.263825, 0.263825)
 texture = ExtResource("1_fah4n")
+
+[node name="Jasper Chen" type="Sprite2D" parent="."]
+texture = ExtResource("2_eft4w")
