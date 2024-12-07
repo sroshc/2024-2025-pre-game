@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://b841wmv1hebnq"]
+
+[ext_resource type="PackedScene" uid="uid://d33eyieufg21m" path="res://player.tscn" id="1_o1dj6"]
+[ext_resource type="Texture2D" uid="uid://v3pn3f50gng0" path="res://Assets/tonk.jpg" id="2_hifev"]
+
+[node name="World1" type="Node2D"]
+
+[node name="Tonk" type="Sprite2D" parent="."]
+position = Vector2(326, -134)
+texture = ExtResource("2_hifev")
+
+[node name="player" parent="." instance=ExtResource("1_o1dj6")]
